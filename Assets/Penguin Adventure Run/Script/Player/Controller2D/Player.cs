@@ -329,7 +329,8 @@ public class Player : MonoBehaviour, ICanTakeDamage {
 
 
 	public void RespawnAt(Vector2 pos){
-		transform.position = pos;
+        velocity.y = 0;
+        transform.position = pos;
 		isPlaying = true;
 		Health = maxHealth;
 
