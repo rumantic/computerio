@@ -24,6 +24,7 @@ public class Controller2D : RaycastController {
 	}
 
 	public void Move(Vector3 velocity, Vector2 input, bool standingOnPlatform = false) {
+        Debug.Log("move");
 		
 		UpdateRaycastOrigins ();
 		collisions.Reset ();
