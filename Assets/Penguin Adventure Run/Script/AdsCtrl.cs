@@ -11,6 +11,7 @@ public class AdsCtrl : MonoBehaviour {
     public string Android_Admob_Interstitial_ID;// ca-app-pub-3940256099942544/1033173712
 
     public bool testMode;                       // to enable/disable test ads
+    public bool disable_ads;                    // disable ads totally
     BannerView bannerView;                      // the container for the banner ad
     InterstitialAd interstitial;
     AdRequest request;
@@ -32,6 +33,9 @@ public class AdsCtrl : MonoBehaviour {
 	
 	public void RequestBanner ()
     {
+        if ( disable_ads ) {
+            return;
+        }
         if (testMode)
         {
             bannerView = new BannerView(Android_Admob_Banner_ID, AdSize.Banner, AdPosition.Top);
@@ -50,11 +54,19 @@ public class AdsCtrl : MonoBehaviour {
 
     public void ShowBanner()
     {
+        if (disable_ads)
+        {
+            return;
+        }
         bannerView.Show();
     }
 
     public void HideBanner()
     {
+        if (disable_ads)
+        {
+            return;
+        }
         bannerView.Hide();
     }
 
@@ -71,6 +83,10 @@ public class AdsCtrl : MonoBehaviour {
 
     void RequestInterstitial()
     {
+        if (disable_ads)
+        {
+            return;
+        }
         if (testMode)
         {
             interstitial = new InterstitialAd(Android_Admob_Interstitial_ID);
@@ -95,6 +111,11 @@ public class AdsCtrl : MonoBehaviour {
 
     public void ShowInterstitial()
     {
+        if (disable_ads)
+        {
+            return;
+        }
+
         if (interstitial.IsLoaded())
         {
             interstitial.Show();
@@ -103,6 +124,11 @@ public class AdsCtrl : MonoBehaviour {
 
     private void OnEnable()
     {
+        if (disable_ads)
+        {
+            return;
+        }
+
         RequestBanner();
 
         RequestInterstitial();

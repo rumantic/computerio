@@ -13196,6 +13196,7 @@ MonoBehaviour:
   Android_Admob_Banner_ID: ca-app-pub-3940256099942544/6300978111
   Android_Admob_Interstitial_ID: ca-app-pub-3940256099942544/1033173712
   testMode: 1
+  disable_ads: 1
 --- !u!4 &1767060526
 Transform:
   m_ObjectHideFlags: 0
@@ -16258,14 +16259,6 @@ PrefabInstance:
       propertyPath: CharacterPrefab
       value: 
       objectReference: {fileID: 133550, guid: f880a647726c24d63afebb6079c09690, type: 3}
-    - target: {fileID: 11447948, guid: 8ee22dcbdb2d94b359d6d5e49e6c7168, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11447948, guid: 8ee22dcbdb2d94b359d6d5e49e6c7168, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 22409930, guid: 8ee22dcbdb2d94b359d6d5e49e6c7168, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -0.000061035156
@@ -16302,6 +16295,14 @@ PrefabInstance:
     - target: {fileID: 11420636, guid: 8ee22dcbdb2d94b359d6d5e49e6c7168, type: 3}
       propertyPath: m_Text
       value: Hunter
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447948, guid: 8ee22dcbdb2d94b359d6d5e49e6c7168, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11447948, guid: 8ee22dcbdb2d94b359d6d5e49e6c7168, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee22dcbdb2d94b359d6d5e49e6c7168, type: 3}
