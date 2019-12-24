@@ -2372,6 +2372,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &153853247
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1901463986}
+    m_Modifications:
+    - target: {fileID: 193456, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_Name
+      value: Bullet Peach (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 104.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4991838
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.03317889
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9994495
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.8030002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+--- !u!4 &153853248 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f,
+    type: 3}
+  m_PrefabInstance: {fileID: 153853247}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &159166013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3716,6 +3771,57 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 479330, guid: 12eb94afa3515d84c96a900a2c7efcdb,
     type: 3}
   m_PrefabInstance: {fileID: 212201741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &213469726
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1901463986}
+    m_Modifications:
+    - target: {fileID: 193456, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_Name
+      value: Bullet Peach (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 55.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.155299
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_RootOrder
+      value: 57
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+--- !u!4 &213469727 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f,
+    type: 3}
+  m_PrefabInstance: {fileID: 213469726}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &217596923
 GameObject:
@@ -5145,6 +5251,69 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &301317482
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1901463986}
+    m_Modifications:
+    - target: {fileID: 193456, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_Name
+      value: Bullet Peach (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.968025
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000000018017938
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.106340915
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6414429
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.64585054
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.40014973
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 48.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 283.35498
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 77.642006
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+--- !u!4 &301317483 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f,
+    type: 3}
+  m_PrefabInstance: {fileID: 301317482}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &309787986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7875,7 +8044,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 489926, guid: c39b50e9bc50fb54187bcf5b4aa00d03, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.3
+      value: 7.92
       objectReference: {fileID: 0}
     - target: {fileID: 489926, guid: c39b50e9bc50fb54187bcf5b4aa00d03, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11026,6 +11195,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &702836606
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1901463986}
+    m_Modifications:
+    - target: {fileID: 193456, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_Name
+      value: Bullet Peach (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 59.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.155299
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_RootOrder
+      value: 56
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+--- !u!4 &702836607 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f,
+    type: 3}
+  m_PrefabInstance: {fileID: 702836606}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &704419098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14948,6 +15168,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &908719754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1901463986}
+    m_Modifications:
+    - target: {fileID: 193456, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_Name
+      value: Bullet Peach (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 51.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.155299
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+      propertyPath: m_RootOrder
+      value: 58
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d63551a31177e334a8be058cc653c77f, type: 3}
+--- !u!4 &908719755 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f,
+    type: 3}
+  m_PrefabInstance: {fileID: 908719754}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &909520758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21718,7 +21989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.4991838
+      value: -0.51
       objectReference: {fileID: 0}
     - target: {fileID: 430972, guid: d63551a31177e334a8be058cc653c77f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28993,6 +29264,11 @@ Transform:
   - {fileID: 2002376775}
   - {fileID: 1083767686}
   - {fileID: 839783193}
+  - {fileID: 153853248}
+  - {fileID: 301317483}
+  - {fileID: 702836607}
+  - {fileID: 213469727}
+  - {fileID: 908719755}
   m_Father: {fileID: 2119304576}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
