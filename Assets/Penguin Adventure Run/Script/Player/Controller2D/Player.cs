@@ -404,6 +404,7 @@ public class Player : MonoBehaviour, ICanTakeDamage {
 
 	public void Kill(){
 		if (isPlaying) {
+            Debug.Log("Kill player");
 			isPlaying = false;
 			StopMove ();
 			SoundManager.PlaySfx (deadSound, deadSoundVolume);
