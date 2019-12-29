@@ -279,10 +279,13 @@ public class Player : MonoBehaviour, ICanTakeDamage {
 				SoundManager.PlaySfx (jumpSound, jumpSoundVolume);
 			}
 		}
-	}
+        //Debug.Log("jump player.transform.position.x = " + transform.position.x);
+        Debug.Log("jump player.transform.position.y = " + transform.position.y);
+
+    }
 
 
-	public void JumpOff(){
+    public void JumpOff(){
 		if (velocity.y > minJumpVelocity) {
 			velocity.y = minJumpVelocity;
 		}

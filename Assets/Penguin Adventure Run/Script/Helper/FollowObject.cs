@@ -9,7 +9,9 @@ public class FollowObject : MonoBehaviour {
 	public bool followY = true;
 
 	void Start(){
-		if (target == null)
+        Debug.Log("followX" + followX);
+        Debug.Log("followY" + followY);
+        if (target == null)
 			target = Camera.main.transform;
 	}
 
@@ -22,5 +24,9 @@ public class FollowObject : MonoBehaviour {
 			transform.position = new Vector3 (follow.x, transform.position.y, transform.position.z);
 		else if (followY)
 			transform.position = new Vector3 (transform.position.x, follow.y, transform.position.z);
-	}
+
+        //Debug.Log("gameObject.transform.position.x = " + transform.position.x);
+        //Debug.Log("gameObject.transform.position.y = " + transform.position.y);
+
+    }
 }
