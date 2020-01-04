@@ -308,12 +308,15 @@ public class Player : MonoBehaviour, ICanTakeDamage {
 	public void RangeAttack(){
 		if (!isPlaying)
 			return;
+
+        Debug.Log("RangAttack");
 		
 		if (allowRangeAttack && rangeAttack!=null) {
 
 			if (rangeAttack.Fire ()) {
 				anim.SetTrigger ("range_attack");
-				SoundManager.PlaySfx (rangeAttackSound, rangeAttackSoundVolume);
+                anim.SetTrigger("Hero_Hurt");
+                SoundManager.PlaySfx (rangeAttackSound, rangeAttackSoundVolume);
 			}
 		}
 	}
