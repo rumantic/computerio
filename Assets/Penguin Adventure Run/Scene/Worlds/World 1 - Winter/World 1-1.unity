@@ -8836,7 +8836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1673801513800972, guid: 54b581503a0422342b2124bc5763dd1c, type: 3}
       propertyPath: m_Name
-      value: Penguin (1)
+      value: Rabbit
       objectReference: {fileID: 0}
     - target: {fileID: 1673801513800972, guid: 54b581503a0422342b2124bc5763dd1c, type: 3}
       propertyPath: m_IsActive
