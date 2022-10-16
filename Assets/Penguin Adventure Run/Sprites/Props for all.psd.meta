@@ -246,7 +246,7 @@ TextureImporter:
       213: 21300160
     second: Bridge 3
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -266,6 +266,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -274,9 +276,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -297,9 +299,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1817,6 +1823,78 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Props for all_9: 21300018
+      Props for all_38: 21300050
+      Monster-Pipe-Body: 21300104
+      Props for all_62: 21300098
+      Saw: 21300048
+      Props for all_36: 21300046
+      Box Wooden: 21300078
+      Props for all_34: 21300042
+      Spring 3: 21300124
+      Peach: 21300000
+      Block Random Broken 4: 21300004
+      Props for all_33: 21300040
+      Props for all_40: 21300054
+      Props for all_61: 21300096
+      Box Metal: 21300076
+      Bridge 2: 21300158
+      Monster-Fish1-Body: 21300084
+      Props for all_19: 21300140
+      Props for all_6: 21300136
+      Props for all_25: 21300036
+      Platform Moving: 21300066
+      Props for all_43: 21300060
+      Props for all_18: 21300138
+      Pipe Blue-Body: 21300152
+      Spring 2: 21300122
+      Props for all_35: 21300044
+      Block Random Broken 1: 21300156
+      Props for all_4: 21300008
+      Block Dirt 3: 21300146
+      Monster-Bird-Body: 21300068
+      Box Random: 21300074
+      Props for all_57: 21300088
+      Props for all_79: 21300132
+      Props for all_67: 21300108
+      Monster-Fish1-Tail: 21300150
+      Props for all_71: 21300116
+      Block Random Broken 2: 21300002
+      Props for all_48: 21300070
+      Pipe Blue-Top: 21300052
+      Block Dirt: 21300134
+      Block Dirt 4: 21300148
+      Monster-Bird-Wing.L: 21300080
+      WoodenBody: 21300100
+      Props for all_69: 21300112
+      Bridge 3: 21300160
+      Props for all_77: 21300128
+      Props for all_41: 21300056
+      Check Point: 21300062
+      Props for all_32: 21300038
+      Props for all_68: 21300110
+      Monster-Pipe-Sting.L: 21300090
+      Spike: 21300118
+      Banana: 21300154
+      Props for all_42: 21300058
+      Props for all_13: 21300026
+      Block Random Broken 3: 21300006
+      Bridge 1: 21300010
+      Bridge single: 21300012
+      Props for all_56: 21300086
+      Props for all_76: 21300126
+      Block Dirt 1: 21300142
+      Props for all_66: 21300106
+      Block Dirt 2: 21300144
+      Props for all_49: 21300072
+      Props for all_70: 21300114
+      Monster-Bird-Wing.R: 21300082
+      Monster-Fish1-Wing: 21300094
+      Spring 1: 21300120
+      Props for all_64: 21300102
+      Monster-Pipe-Sting.R: 21300092
+      Props for all_78: 21300130
   spritePackingTag: 
   pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
