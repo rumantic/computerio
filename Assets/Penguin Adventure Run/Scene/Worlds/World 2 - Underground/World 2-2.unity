@@ -13934,7 +13934,7 @@ Transform:
   - {fileID: 46255342}
   - {fileID: 1833090785}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &990277086
 PrefabInstance:
@@ -19166,8 +19166,16 @@ PrefabInstance:
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 437902, guid: 5095627ec9f82f1479e6fbee00c74a33, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 16.1165
+      objectReference: {fileID: 0}
+    - target: {fileID: 437902, guid: 5095627ec9f82f1479e6fbee00c74a33, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.221244
+      objectReference: {fileID: 0}
+    - target: {fileID: 437902, guid: 5095627ec9f82f1479e6fbee00c74a33, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 160.51541
+      value: 149.4804
       objectReference: {fileID: 0}
     - target: {fileID: 437902, guid: 5095627ec9f82f1479e6fbee00c74a33, type: 3}
       propertyPath: m_LocalPosition.y
@@ -27339,6 +27347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -31871,7 +31880,7 @@ Transform:
   - {fileID: 18264849}
   - {fileID: 1994077145}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2124886110
 PrefabInstance:
